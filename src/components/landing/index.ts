@@ -1,0 +1,12 @@
+export { Navbar } from './Navbar';
+export { Hero } from './Hero';
+export { TrustStats } from './TrustStats';
+export { Specializations } from './Specializations';
+export { DoctorCards } from './DoctorCards';
+export { HowItWorks } from './HowItWorks';
+export { WhyChooseUs } from './WhyChooseUs';
+export { ProductPreview } from './ProductPreview';
+export { Testimonials } from './Testimonials';
+export { DoctorCTA } from './DoctorCTA';
+export { FinalCTA } from './FinalCTA';
+export { Footer } from './Footer';
