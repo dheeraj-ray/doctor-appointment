@@ -1,32 +1,19 @@
-# React + TypeScript + Vite
+# 🩺 Doctor Appointment Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An online doctor appointment booking platform designed to schedule, manage, and view doctor consultations seamlessly.
 
-Currently, two official plugins are available:
+## ✨ Features
+- Doctor profile and availability listings
+- Interactive appointment booking interface
+- Clean and responsive user interface across all devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Framework:** React + Vite
+- **Language:** TypeScript / JavaScript
+- **Styling:** CSS3
 
-## React Compiler
+## ⚙️ Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/dheeraj-ray/doctor-appointment.git](https://github.com/dheeraj-ray/doctor-appointment.git)
